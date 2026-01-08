@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Estilo para a barra de rolagem ficar bonita */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e9d5ff;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c084fc;
+}
